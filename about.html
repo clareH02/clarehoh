@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <!--Referenced from layout exercise reading: https://web.dev/articles/responsive-web-design-basics-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Yein (Clare) Hoh</title>
+
+        <!--Body Font-->
+        <!--Helveltica LT Pro and Roboto from Adobe Fonts-->
+        <link rel="stylesheet" href="https://use.typekit.net/tie6kpt.css">
+
+        <!--Headings Font-->
+        <!--Guanabara Sans and Open Sans from Adobe Fonts--> 
+        <link rel="stylesheet" href="https://use.typekit.net/txl2ntw.css">
+
+        <link href="css/main.css" rel="stylesheet">
+        <link href="css/about.css" rel="stylesheet">
+        <link href="css/grids.css" rel="stylesheet">
+
+        <script src="js/menu.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <nav class="nav-bar">
+                <div class="grid one-column">
+                    <div class="grid two-column logo-responsive">
+                        <a class="logo-small" href="index.html"> 
+                            <img src="images/icons/logo.png" alt="Clare.Y Hoh small Logo icon" width="68" height="40">
+                        </a>
+                        
+                        <div class="logo-big">
+                            <div class="round-border">
+                                <a href="index.html">
+                                <img src="images/icons/logo-with-name.png" alt="Clare.Y Hoh big Logo icon" width="183" height="52">
+                                </a>
+
+                            </div>
+                        </div>
+                        
+                        <a href="menu.html" class="toggler button-nav" aria-label="Open menu" role="button">
+                            <img src="images/icons/Menu.png" alt="open menu icon" width="45" height="40">
+                        </a>
+
+                        <div class="button-flex nav-big">
+                        <a href = "work.html">Work</a>
+                        <a href = "about.html">About</a>
+                        <a href = "#about-footer">Connect</a>
+                        </div>
+
+                    </div>
+                    
+                    
+                </div>
+            </nav>
+        </header>
+
+        <div class="main">
+            <!--Landing Page-->
+            <section class="about">    
+                <div class="about-grid">
+                    <div class= "about-first-text">
+                        <h1>About Clare (Yein) Hoh</h1>
+                        <p>I was born in South Korea and now based in Canada, carrying a unique perspective shaped by two distinct cultures. I am currently studying in the School of Interactive Arts and Technology (SIAT) at Simon Fraser University, pursuing a degree with a focus on <span class="p-underline">Graphic Design</span> and <span class="p-underline">UI/UX Interaction Design.</span></p>
+                        <p>While I’ve always had a passion for the arts, I did not truly discover design until university. I began my academic journey in Computing Science, but it was through exploring HTML and CSS that I was introduced to web design, a moment that completely opened my eyes to the creative possibilities of the digital world.</p>
+                    </div>
+
+                    <div class="about-image">
+                        <img src="images/about-1.png" alt="Photo of Clare looking at ocean">
+                    </div>
+                
+                    <div class="about-image">
+                        <img src="images/about-2.png" alt="Photo of Clare walking the ocean">
+                    </div>
+
+                    <div class= "about-second-text">
+                        <p>Since then, I have developed a love for creating across multiple mediums, from 3D visualization and prototyping to branding, logo design, and interaction design. Each project is an opportunity to combine creativity with problem-solving, transforming ideas into engaging, functional experiences.</p>
+
+                        <p>When I’m not designing, I love being near the water. Whether it’s swimming, exploring the ocean, or admiring its fascinating marine life. My curiosity also takes me traveling to new places, where I find inspiration through different scenery. At home, I enjoy getting lost in the twists of a good thriller or detective novel, creating digital art, and immersing myself in the rich narratives of story-driven games.</p>
+                    </div>
+                </div>
+                <img src="images/icons/silver-line.png" class="divider" id="footer-divider" alt="divider line image" width="847" height="2">
+            </section>
+    
+        </div>
+
+        <div class="sidebar">
+            <img src="images/icons/close-menu.png" alt="close menu icon" width="45" height="40" class="closeSidebarButton">
+            <a href="index.html">Home</a>
+            <a href="work.html">Work</a>
+            <a href="about.html">About</a>
+            <a href="index.html#home-footer">Connect</a>
+        </div>
+
+        <footer class="footer-style" id="about-footer">
+            <div class="grid-one">
+                <h4>Let's Collaborate</h4>
+                <p>Get in touch for opportunities or just to say hi!</p>
+            </div>
+            
+                <a href="#">EMAIL</a>
+                <a href="#">RESUME</a>
+                <a href="#">LINKEDIN</a>
+               
+            <p>Copyright © Yein Clare Hoh | 2025</p>
+        </footer>  
+
+    </body>
+</html>

@@ -1,0 +1,157 @@
+<!-- This is the homepage for my portfolio
+ This page should be the first page you see when the website it opened -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <!--Referenced from layout exercise reading: https://web.dev/articles/responsive-web-design-basics-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Yein (Clare) Hoh</title>
+
+        <!--Body Font-->
+        <!--Helveltica LT Pro and Roboto from Adobe Fonts-->
+        <link rel="stylesheet" href="https://use.typekit.net/tie6kpt.css">
+
+        <!--Headings Font-->
+        <!--Guanabara Sans and Open Sans from Adobe Fonts--> 
+        <link rel="stylesheet" href="https://use.typekit.net/txl2ntw.css">
+
+        <link href="css/main.css" rel="stylesheet">
+        <link href="css/grids.css" rel="stylesheet">
+
+        <script src="js/menu.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <nav class="nav-bar">
+                <div class="grid one-column">
+                    <div class="grid two-column logo-responsive">
+                        <a class="logo-small" href="index.html"> 
+                            <img src="images/icons/logo.png" alt="Clare.Y Hoh small Logo icon" width="68" height="40">
+                        </a>
+                        
+                        <div class="logo-big">
+                            <div class="round-border">
+                                <a href="index.html">
+                                <img src="images/icons/logo-with-name.png" alt="Clare.Y Hoh big Logo icon" width="183" height="52">
+                                </a>
+
+                            </div>
+                        </div>
+                        
+                        <a href="menu.html" class="toggler button-nav" aria-label="Open menu" role="button">
+                            <img src="images/icons/Menu.png" alt="open menu icon" width="45" height="40">
+                        </a>
+
+                        <div class="button-flex nav-big">
+                        <a href = "work.html">Work</a>
+                        <a href = "about.html">About</a>
+                        <a href = "#work-footer">Connect</a>
+                        </div>
+
+                    </div>
+                    
+                    
+                </div>
+            </nav>
+        </header>
+
+        <div class="main">
+            <!--Landing Page-->
+            <section class="home-hero">    
+                <div id= "home-hero-headline" class= "grid one-column align-grid-center outer-margin">
+                    <h1>MeetReal</h1>
+                    <p>IAT 334: Interface Design</p>
+                    <a class="scroll-down" href="#work-scroll"> 
+                                <img src="images/icons/arrow-down.png" alt="arrow down icon" width="30" height="28">
+                    </a>
+                    <img src="images/icons/silver-line.png" class="divider" alt="divider line image" width="847" height="2">
+                </div>
+            </section>
+    
+            <section class="home-project work-list" id="work-scroll">
+                <div class= "grid one-column">
+                    <h2>Project Duration</h2>
+                    <p>June 2024 - August 2024 (6 weeks)</p>
+
+                    <div class="project-thumbnail">
+                        <img src="images/334-thumbnail.png" alt="MeetReal Project Thumbnail" width="1920" height="1080">
+                    </div>
+                    
+                    <h3>My Role</h3>
+                    <p class="less-margin">UI/UX Research, Interface Design</p>
+                    
+                    <h3>Context of Problem</h3>
+                    <div class="project-thumbnail">
+                        <img src="images/context-of-problem.png" alt="context of problem graph" width="1920" height="1080">
+                    </div>
+                    <p class="less-margin">MeetReal is a dating app designed to improve the challenge that the dating app users encounter difficulty in creating a connection from the dating app to an in-person date, due to various date preferences for individuals or safety issues about meeting strangers in real life.</p>
+                    
+                    <h3>Solution</h3>
+                    <div class="project-thumbnail">
+                        <img src="images/334-solution.png" alt="MeetReal Project Solution Explaination" width="1920" height="1080">
+                    </div>
+                    <p>In order to solve the problems, MeetReal Date Setup includes three different features. First, it allows the users to set their date preferences to find the ideal date place. Secondly, it helps users set up their safety contact, and lastly, it receives users' feedback about their experiences. </p>
+
+                    <h3>I focused on...</h3>
+                    <div class="project-thumbnail">
+                        <img src="images/button-example.png" alt="Image of buttons for MeetReal Interface" width="784" height="506">
+                    </div>
+                    <p class="less-margin">I focused on one of the core functions of dating setup such as setting up the date preferences tab, its visual design of toggle buttons for setting the date preferences tab.</p>
+
+                    <h3>Redesign Analysis</h3>
+                    <div class="project-thumbnail">
+                        <img src="images/button-feedback.png" alt="Redesigned app buttons" width="1770" height="543">
+                    </div>
+                    <p class="less-margin">The previous design of the toggle switches looked too similar to the style of the main buttons. It was highlighted by the TA, who provided feedback that this similar design might lead users mistakenly to think that clicking the toggle switches would act, rather than simply switching states. </p>
+
+                    <h3>Outcome</h3>
+                    <div class="project-thumbnail">
+                        <img src="images/button-outcome.png" alt="app interface screenshot" width="842" height="778">
+                    </div>
+                    <p class="less-margin">he re-design for setting the preferences tab was successful, leading to a better interface design as a result. As emojis have been added, it could make the users understand what it means better and bring them a more friendly context. As the toggle switches differ from the main buttons, it does not break the heuristic principle of 'Recognition rather than recall' by its distinct style to help users identify their function. Also, keeping the original design for the confirm button at the bottom keeps the heuristic rule of ‘Consistency and Standards.' </p>
+                    
+                    <h3>Prototype</h3>
+                    <a class="project-thumbnail" href="#"> 
+                        <img src="images/334-prototype.png" alt="MeetReal Prototype from Figma" width="1920" height="1080">
+                    </a>
+
+                    <h3>Reflection</h3>
+                    <p>From this experience, I have learned that understanding the user's perspective is crucial for improving interface design. Keep in structure with chosen style would be one of the important thing to build a consistent and effective design.</p>
+                </div>
+                <img src="images/icons/silver-line.png" class="divider" id="footer-divider" alt="divider line image" width="847" height="2">
+            </section>
+        </div>
+
+        <div class="sidebar">
+            <img src="images/icons/close-menu.png" alt="close menu icon" width="45" height="40" class="closeSidebarButton">
+            <a href="index.html">Home</a>
+            <a href="work.html">Work</a>
+            <a href="about.html">About</a>
+            <a href="index.html#home-footer">Connect</a>
+        </div>
+
+        
+        <footer class="footer-style" id="work-footer">
+            <div class="grid-one">
+                <h4>Let's Collaborate</h4>
+                <p>Get in touch for opportunities or just to say hi!</p>
+            </div>
+            
+                <a href="#">EMAIL</a>
+                <a href="#">RESUME</a>
+                <a href="#">LINKEDIN</a>
+               
+            <p>Copyright © Yein Clare Hoh | 2025</p>
+        </footer>  
+       
+
+    </body>
+
+</html>

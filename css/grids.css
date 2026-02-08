@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    background-color: #F3F3F3;
+}
+
+.grid{
+    display:grid;
+}
+
+  .two-column{
+    grid-template-columns: 1fr 1fr;
+  }
+
+/*responsive grid*/
+/*320pixel to 624pixel (mobile)*/
+@media (min-width: 0rem) and (max-width: 39rem) {
+  .one-column{
+    grid-template-columns:1fr;
+  }
+
+  .button-nav{
+    display:grid;
+  }
+}

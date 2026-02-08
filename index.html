@@ -1,0 +1,120 @@
+<!-- This is the homepage for my portfolio
+ This page should be the first page you see when the website it opened -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <!--Referenced from layout exercise reading: https://web.dev/articles/responsive-web-design-basics-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Yein (Clare) Hoh</title>
+
+        <!--Body Font-->
+        <!--Helveltica LT Pro and Roboto from Adobe Fonts-->
+        <link rel="stylesheet" href="https://use.typekit.net/tie6kpt.css">
+
+        <!--Headings Font-->
+        <!--Guanabara Sans and Open Sans from Adobe Fonts--> 
+        <link rel="stylesheet" href="https://use.typekit.net/txl2ntw.css">
+
+        <link href="css/main.css" rel="stylesheet">
+        <link href="css/grids.css" rel="stylesheet">
+
+        <script src="js/menu.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <nav class="nav-bar">
+                <div class="grid one-column">
+                    <div class="grid two-column logo-responsive">
+                        <a class="logo-small" href="index.html"> 
+                            <img src="images/icons/logo.png" alt="Clare.Y Hoh small Logo icon" width="68" height="40">
+                        </a>
+                        
+                        <div class="logo-big">
+                            <div class="round-border">
+                                <a href="index.html">
+                                <img src="images/icons/logo-with-name.png" alt="Clare.Y Hoh big Logo icon" width="183" height="52">
+                                </a>
+
+                            </div>
+                        </div>
+                        
+                        <a href="menu.html" class="toggler button-nav" aria-label="Open menu" role="button">
+                            <img src="images/icons/Menu.png" alt="open menu icon" width="45" height="40">
+                        </a>
+
+                        <div class="button-flex nav-big">
+                        <a href = "work.html">Work</a>
+                        <a href = "about.html">About</a>
+                        <a href = "#home-footer">Connect</a>
+                        </div>
+
+                    </div>
+                    
+                    
+                </div>
+            </nav>
+        </header>
+
+        <div class="main">
+            <!--Landing Page-->
+            <section class="home-hero">    
+                <div id= "home-hero-headline" class= "grid one-column align-grid-center outer-margin">
+                    <h1>Hi, I’m Clare (Yein) Hoh</h1>
+                    <p>An Interactive Arts and Technology student passionate about creating <span class="p-underline">intuitive</span> and <span class="p-underline">user-friendly</span> websites to provide <span class="p-underline">meaningful experiences.</span></p>
+                    <a class="scroll-down" href="#project-scroll"> 
+                                <img src="images/icons/arrow-down.png" alt="arrow down icon" width="30" height="28">
+                    </a>
+                    <img src="images/icons/silver-line.png" class="divider" alt="divider line image" width="847" height="2">
+                </div>
+            </section>
+    
+            <section class="home-project" id="project-scroll">
+                <div class= "grid one-column">
+                    <h2>Featured Projects</h2>
+
+                    <a class="project-thumbnail" href="work.html"> 
+                        <img src="images/334-thumbnail.png" alt="MeetReal Project Thumbnail" width="1920" height="1080">
+                    </a>
+                    <p class="project-descriptive">2024</p>
+                    <h3>MeetReal</h3>
+
+                    <p class="body-text">UI/UX, Prototyping <span class="p-next-line">The interface design of the new dating app features - MeetReal Date Setup function</span></p>
+                    
+                    <a class="project-view-button" href="work.html"> 
+                        <img src="images/icons/view-project.png" alt="view project button" width="175" height="50">
+                    </a>
+                </div>
+            </section>
+            <img src="images/icons/silver-line.png" class="divider" id="footer-divider" alt="divider line image" width="847" height="2">
+        </div>
+
+        <div class="sidebar">
+            <img src="images/icons/close-menu.png" alt="close menu icon" width="45" height="40" class="closeSidebarButton">
+            <a href="index.html">Home</a>
+            <a href="work.html">Work</a>
+            <a href="about.html">About</a>
+            <a href="about.html#about-footer">Connect</a>
+        </div>
+
+        <footer class="footer-style" id="home-footer">
+            <div class="grid-one">
+                <h4>Let's Collaborate</h4>
+                <p>Get in touch for opportunities or just to say hi!</p>
+            </div>
+            
+                <a href="#">EMAIL</a>
+                <a href="#">RESUME</a>
+                <a href="#">LINKEDIN</a>
+               
+            <p>Copyright © Yein Clare Hoh | 2025</p>
+        </footer>  
+    </body>
+
+</html>
