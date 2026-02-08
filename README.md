@@ -1,9 +1,9 @@
-# yha250_project_03
-Yein (Clare) Hoh IAT 339 D103 P3: Portfolio
+# Clare-Portfolio-2026
+Clare Hoh: Portfolio
 
 
 ## URL to website:
-https://pages.github.sfu.ca/iat339/yha250_project_03/
+https://clareh02.github.io/clarehoh/
 
 ## Font citations
 Monotype. (n.d). Helvetica LT Pro [Font]. Adobe Font. Retrieved from: https://fonts.adobe.com/fonts/helvetica
