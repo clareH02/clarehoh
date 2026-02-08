@@ -11,7 +11,7 @@
         <!--Referenced from layout exercise reading: https://web.dev/articles/responsive-web-design-basics-->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Yein (Clare) Hoh</title>
+        <title>Clare Hoh</title>
 
         <!--Body Font-->
         <!--Helveltica LT Pro and Roboto from Adobe Fonts-->
@@ -52,6 +52,7 @@
                         <div class="button-flex nav-big">
                         <a href = "work.html">Work</a>
                         <a href = "about.html">About</a>
+                        <a href = "https://drive.google.com/file/d/15tOdXTXYDYdl_S9jhFXe4OpPocGhhXRm/view?usp=sharing" target="_blank">Resume</a>
                         <a href = "#work-footer">Connect</a>
                         </div>
 
@@ -67,7 +68,7 @@
             <section class="home-hero">    
                 <div id= "home-hero-headline" class= "grid one-column align-grid-center outer-margin">
                     <h1>MeetReal</h1>
-                    <p>IAT 334: Interface Design</p>
+                    <p>Date Setup Feature</p>
                     <a class="scroll-down" href="#work-scroll"> 
                                 <img src="images/icons/arrow-down.png" alt="arrow down icon" width="30" height="28">
                     </a>
@@ -87,12 +88,36 @@
                     <h3>My Role</h3>
                     <p class="less-margin">UI/UX Research, Interface Design</p>
                     
+                    <h3>Overview</h3>
+                    <p>MeetReal is a dating app designed to bridge the gap between online matching and meaningful in-person connections. While many dating platforms focus on swiping and messaging, users often struggle to safely and confidently transition from digital conversations to real-life dates.</p>
+                    <p class="less-margin">This project focused on designing a Date Setup feature, a system that helps users plan in-person dates more intentionally by aligning preferences, suggesting suitable locations, and addressing personal safety concerns. The goal was to reduce friction, increase confidence, and support healthier, more thoughtful dating experiences.</p>
+
                     <h3>Context of Problem</h3>
                     <div class="project-thumbnail">
                         <img src="images/context-of-problem.png" alt="context of problem graph" width="1920" height="1080">
                     </div>
-                    <p class="less-margin">MeetReal is a dating app designed to improve the challenge that the dating app users encounter difficulty in creating a connection from the dating app to an in-person date, due to various date preferences for individuals or safety issues about meeting strangers in real life.</p>
+                    <h4 id="h4-subtitle">The Gap Between Matching and Meeting</h4>
+                    <p>Although dating apps make it easy to connect online, many users hesitate when it comes time to meet in person. Through background research, we identified several contributing factors:</p>
+
+                    <ul>
+                        <li>Mismatched expectations for dates (time, mood, activity type)</li>
+                        <li>Difficulty agreeing on locations</li>
+                        <li>Safety concerns when meeting strangers in real life</li>
+                    </ul>
+
+                    <p>Research on dating violence further highlighted these concerns, with surveys showing that nearly two-thirds of users experienced unwanted harm after meeting someone through a dating app. This emphasized the importance of designing not just for convenience, but for safety and trust.</p>
                     
+                    <h3>Challenge</h3>
+                    <p>MeetReal needed a way to:</p>
+
+                    <ul>
+                        <li>Encourage real-life connections without increasing user anxiety</li>
+                        <li>Support safer in-person dating experiences</li>
+                        <li>Help users quickly find mutually agreeable date plans</li>
+                    </ul>
+
+                    <p>The challenge was to design an interface that felt approachable and friendly, while also handling sensitive topics like safety and personal boundaries.</p>
+
                     <h3>Solution</h3>
                     <div class="project-thumbnail">
                         <img src="images/334-solution.png" alt="MeetReal Project Solution Explaination" width="1920" height="1080">
@@ -109,21 +134,26 @@
                     <div class="project-thumbnail">
                         <img src="images/button-feedback.png" alt="Redesigned app buttons" width="1770" height="543">
                     </div>
-                    <p class="less-margin">The previous design of the toggle switches looked too similar to the style of the main buttons. It was highlighted by the TA, who provided feedback that this similar design might lead users mistakenly to think that clicking the toggle switches would act, rather than simply switching states. </p>
+                    <h4>Identified Issue</h4>
+                    <p>In the initial design, the toggle switches closely resembled the app’s primary action buttons. During critique, this was flagged as a usability issue, as users could mistakenly interpret the toggles as actions rather than state-based controls.</p>
+                    
+                    <p class="less-margin">This confusion risked incorrect interactions, increased congnitive load, and reduced clarity within a critical setup flow.</p>
 
                     <h3>Outcome</h3>
                     <div class="project-thumbnail">
                         <img src="images/button-outcome.png" alt="app interface screenshot" width="842" height="778">
                     </div>
-                    <p class="less-margin">he re-design for setting the preferences tab was successful, leading to a better interface design as a result. As emojis have been added, it could make the users understand what it means better and bring them a more friendly context. As the toggle switches differ from the main buttons, it does not break the heuristic principle of 'Recognition rather than recall' by its distinct style to help users identify their function. Also, keeping the original design for the confirm button at the bottom keeps the heuristic rule of ‘Consistency and Standards.' </p>
+                    <p class="less-margin">The re-design for setting the preferences tab was successful, leading to a better interface design as a result. Additionally, as emojis have been added, it could make the users understand what it means better and bring them a more friendly context. As the toggle switches differ from the main buttons, it does not break the heuristic principle of 'Recognition rather than recall' by its distinct style to help users identify their function. Also, keeping the original design for the confirm button at the bottom maintains the visual consistency across the app.
+                    </p>
                     
                     <h3>Prototype</h3>
-                    <a class="project-thumbnail" href="#"> 
+                    <a class="project-thumbnail prototype-thumbnail" target="_blank" href="https://www.figma.com/proto/t4ksp1NuUiKCZQxvhZPekg/IAT334-P4-Interactive-Prototype?node-id=120-224&starting-point-node-id=120%3A224&t=3KAWGR4cUexCwPSa-1"> 
                         <img src="images/334-prototype.png" alt="MeetReal Prototype from Figma" width="1920" height="1080">
+                        <span class="overlay-text"> &nbsp; View Prototype →</span>
                     </a>
 
-                    <h3>Reflection</h3>
-                    <p>From this experience, I have learned that understanding the user's perspective is crucial for improving interface design. Keep in structure with chosen style would be one of the important thing to build a consistent and effective design.</p>
+                    <h3>Looking Back</h3>
+                    <p>This project reinforced the importance of designing from the user’s perspective, especially in emotionally sensitive contexts like dating and personal safety. Small visual distinctions can significantly impact how users interpret and interact with an interface. MeetReal demonstrated how thoughtful interaction design can encourage real-world connection while respecting user comfort and boundaries.</p>
                 </div>
                 <img src="images/icons/silver-line.png" class="divider" id="footer-divider" alt="divider line image" width="847" height="2">
             </section>
@@ -134,21 +164,21 @@
             <a href="index.html">Home</a>
             <a href="work.html">Work</a>
             <a href="about.html">About</a>
+            <a href = "https://drive.google.com/file/d/15tOdXTXYDYdl_S9jhFXe4OpPocGhhXRm/view?usp=sharing" target="_blank">Resume</a>
             <a href="index.html#home-footer">Connect</a>
         </div>
 
         
         <footer class="footer-style" id="work-footer">
             <div class="grid-one">
-                <h4>Let's Collaborate</h4>
+                <h4>Thanks for visiting</h4>
                 <p>Get in touch for opportunities or just to say hi!</p>
             </div>
             
-                <a href="#">EMAIL</a>
-                <a href="#">RESUME</a>
-                <a href="#">LINKEDIN</a>
+                <p>clarehoh@gmail.com</p>
+                <a href="https://www.linkedin.com/in/clare-hoh-6221b0375/ target="_blank"">LINKEDIN</a>
                
-            <p>Copyright © Yein Clare Hoh | 2025</p>
+            <p>Copyright © Clare Hoh | 2026</p>
         </footer>  
        
 

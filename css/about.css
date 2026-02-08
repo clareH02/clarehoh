@@ -46,6 +46,10 @@
     font-size:1.5rem;
 }
 
+footer a:hover{
+    color:#8d8d8d;
+}
+
 /*responsive grid*/
 /*320pixel to 624pixel (mobile)*/
 @media (min-width: 0rem) and (max-width: 39rem) {  
